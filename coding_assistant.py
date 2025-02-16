@@ -76,7 +76,7 @@ with st.sidebar:
     st.markdown("<h2 style='text-align: center; color: black;'>Model Configuration</h2>", unsafe_allow_html=True)
     selected_model = st.selectbox(
         "Choose Your Model",
-        ["deepseek-r1:1.5b", "deepseek-r1:3b"],
+        ["deepseek-r1:1.5b", "deepseek-r1:7b"],
         index=0
     )
     
